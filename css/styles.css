@@ -4,7 +4,7 @@ html, body
 	{
 		height: 100%;
 	}
-	
+
 	body
 	{
 		margin: 0px;
@@ -15,44 +15,44 @@ html, body
 		font-weight: 400;
 		color: #000000;
 	}
-	
-	
+
+
 	h1, h2, h3
 	{
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	p, ol, ul
 	{
 		margin-top: 0;
 	}
-	
+
 	ol, ul
 	{
 		padding: 0;
 		list-style: none;
 	}
-	
+
 	p
 	{
 		line-height: 180%;
 	}
-	
+
 	strong
 	{
 	}
-	
+
 	a
 	{
 		color: #0000FF;
 	}
-	
+
 	a:hover
 	{
 		text-decoration: none;
 	}
-	
+
 
 	.container
 	{
@@ -75,32 +75,32 @@ html, body
 		display: inline-block;
 		border: 1px solid rgba(0,0,0,.1);
 	}
-	
+
 	.image img
 	{
 		display: block;
 		width: 100%;
 	}
-	
+
 	.image-full
 	{
 		display: block;
 		width: 100%;
 		margin: 0 0 3em 0;
 	}
-	
+
 	.image-left
 	{
 		float: left;
 		margin: 0 2em 2em 0;
 	}
-	
+
 	.image-centered
 	{
 		display: block;
 		margin: 0 0 2em 0;
 	}
-	
+
 	.image-centered img
 	{
 		margin: 0 auto;
@@ -127,7 +127,7 @@ html, body
 		font-size: 1.2em;
 		color: #FFFFFF;
 	}
-	
+
 	.button:before
 	{
 		display: inline-block;
@@ -140,7 +140,7 @@ html, body
 		text-align: center;
 		color: #272925;
 	}
-	
+
 	.button-small
 	{
 		/*margin-left: 20px;*/
@@ -161,14 +161,14 @@ html, body
 		margin-bottom: 3em;
 		text-align: center;
 	}
-	
+
 	.title h2
 	{
 		font-size: 2.8em;
 		color: #9DCCC2;
 		text-align: center;
 	}
-	
+
 	.byline
 	{
 		letter-spacing: 0.15em;
@@ -183,7 +183,7 @@ html, body
 		padding: 2em 0em;
 		text-align: center;
 	}
-	
+
 	.title h1
 	{
 		padding-top:20%;
@@ -191,15 +191,11 @@ html, body
 		color: rgba(0,0,0,0.6);
 		text-align: center;
 	}
-	
-	#header-wrapper
-	{
-		padding-top: 1.5em;
-		padding-bottom: 1.5em;
-		background: #9DCCC2;
-		position: fixed;
+
+	.header-wrapper	{
+		background-image: url("/images/home-banner.png");
+		background-repeat: repeat;
 		width:100%;
-		text-align: right;
 	}
 
 
@@ -212,7 +208,7 @@ html, body
 	{
 		display: inline-block;
 	}
-	
+
 	.menu li a, .menu li span
 	{
 		margin-left: 0.50em;
@@ -224,11 +220,11 @@ html, body
 		text-transform: uppercase;
 		color: rgba(255, 255, 255, 0.4);
 	}
-	
+
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 	}
-	
+
 	#menu .current_page_item a
 	{
 		color: rgba(255, 255, 255, 1);
@@ -257,11 +253,10 @@ html, body
 	#wrapper3
 	{
 		background: #EDEDED;
-		height:125%;
+		height:40%;
 		text-align:center;
-		padding-bottom:25%;
 	}
-	
+
 	#wrapper4
 	{
 		overflow: hidden;
@@ -291,21 +286,21 @@ html, body
 		text-align: center;
 		color: #6F6F6F;
 	}
-	
+
 	#welcome .content
 	{
 		padding: 0em 8em;
 	}
-	
-	
-	
+
+
+
 	#welcome a,
 	#welcome strong
 	{
 		color: rgba(255,255,255,0.6);
 	}
 
-	
+
 
 	#skills{
 		text-align: center;
@@ -321,7 +316,7 @@ html, body
 		background: #EDEDED;
 		text-align: center;
 	}
-	
+
 
 
 
@@ -331,13 +326,13 @@ html, body
 	#portfolio
 	{
 	}
-	
+
 	#portfolio .box
 	{
 		text-align: center;
 		color: rgba(0,0,0,0.5);
 	}
-	
+
 	#portfolio h3
 	{
 		display: block;
@@ -366,7 +361,7 @@ html, body
 		width: 40%;
 
 	}
-	
+
 	.column1,
 	.column2,
 	.column3,
@@ -375,7 +370,7 @@ html, body
 		float: right;
 		padding-right:7%;
 	}
-	
+
 	/*.column4
 	{
 		float: right;
@@ -384,29 +379,29 @@ html, body
 
 	/*================================================================================================================================*/
 	/*============================================PORTFOLIO DETAILS=============================================================*/
-	.entry 
+	.entry
 	{
 		 width: 300px;
 		 float: left;
 		 padding: 10px;
 		 margin: 10px;
 	}
-	 
-	
-	figure 
+
+
+	figure
 	{
 		 display: block;
 		 width: 280px;
 		 padding: 9px;
 		 text-align: left;
 		}
-	
+
 	figure img {
 		text-align: center;
 		 width: 260px;
 		 border: 1px solid #d6d6d6;
 	}
-	
+
 	figcaption {
 		 padding: 20px;
 		 color:#9DCCC2;;
@@ -419,20 +414,20 @@ html, body
 		border-right: 1px solid #eeeeee;
 	}
 
-	article 
+	article
 	{
 		padding-left: 50px;
  		clear: both;
  		overflow: auto;
  		width: 100%;
  	}
-	 
-	hgroup 
+
+	hgroup
 	{
 	 	margin-top:40px;
 	 }
 
-	figure 
+	figure
 	{
 		 float: left;
 		 width: 200px;
@@ -441,13 +436,13 @@ html, body
 		 border: 1px solid #eeeeee;
 	}
 
-	figcaption 
+	figcaption
 	{
 	 	font-size: 90%;
 	 	text-align: left;
 	}
 
-	aside 
+	aside
 	 {
 	 	width: 400px;
 		 float: right;
@@ -459,14 +454,14 @@ html, body
 	form
 		{
 		}
-		
+
 			form label
 			{
 				display: block;
 				text-align: left;
 				margin-bottom: 0.5em;
 			}
-			
+
 			form .submit
 			{
 				margin-top: 2em;
@@ -474,7 +469,7 @@ html, body
 				line-height: 1.5em;
 				font-size: 1.3em;
 			}
-		
+
 			form input.text,
 			form select,
 			form textarea
@@ -508,7 +503,7 @@ html, body
 					box-shadow: 0 0 2px 1px #E0E0E0;
 					background: #fff;
 				}
-				
+
 				form textarea
 				{
 					min-height: 12em;
@@ -525,12 +520,12 @@ html, body
 		background: #EDEDED;
 		text-align: center;
 	}
-	
+
 	#contact .title h2
 	{
 		color: rgba(0,0,0,0.8);
 	}
-	
+
 	#contact .content
 	{
 		width: 600px;
@@ -549,7 +544,7 @@ html, body
     	bottom: 0;
     	width: 100%;
 	}
-	
+
 	#footer p
 	{
 		padding:1em 0em;

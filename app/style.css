@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #9DCCC2;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  color: #000000; }
+
+.header-wrapper {
+  background-image: url("/assets/images/home-banner-01.png");
+  background-repeat: repeat;
+  width: 100%; }
+  .header-wrapper h1 {
+    font-size: 5.8em;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-weight: bold; }
+
+.byline {
+  letter-spacing: .15em;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #6F6F6F;
+  text-align: center;
+  padding-top: 2em; }
+
+.linkContainer {
+  padding: 1em;
+  text-align: center; }
+
+.topLink {
+  padding: 1em;
+  letter-spacing: .2em;
+  letter-spacing: 0.20em;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4); }
+
+.about {
+  overflow: hidden;
+  padding: 2em 0em;
+  background: #EDEDED;
+  text-align: center; }
+  .about h2 {
+    font-size: 2.8em;
+    color: #9DCCC2;
+    text-align: center; }
+  .about p {
+    line-height: 180%;
+    margin-left: 2em;
+    margin-right: 2em; }
