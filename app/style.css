@@ -12,6 +12,7 @@ body {
   background-repeat: repeat;
   width: 100%; }
   .header-wrapper h1 {
+    margin-top: 0;
     font-size: 5.8em;
     color: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -38,16 +39,37 @@ body {
   font-weight: 600;
   color: rgba(255, 255, 255, 0.4); }
 
-.about {
+.panel {
   overflow: hidden;
   padding: 2em 0em;
   background: #EDEDED;
   text-align: center; }
-  .about h2 {
+  .panel h2 {
     font-size: 2.8em;
     color: #9DCCC2;
     text-align: center; }
-  .about p {
+  .panel p {
     line-height: 180%;
     margin-left: 2em;
     margin-right: 2em; }
+
+.workContainer {
+  width: 80%;
+  margin: auto; }
+
+.work {
+  display: inline-block;
+  padding: 1em;
+  margin: 2em; }
+  .work img {
+    width: 300px; }
+  .work button {
+    background: #9DCCC2;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding: 10px 20px;
+    cursor: pointer;
+    min-height: 44px; }
