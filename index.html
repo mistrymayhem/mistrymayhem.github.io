@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="mySite">
 
 <head>
     <title>Home</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <script src="index.js"></script>
     <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -42,39 +43,13 @@
   <div class="panel">
     <h2>Work</h2>
     <div class="workContainer">
-      <div class="work">
-        <img src="assets/home-page.png">
-        <h3>RIT Reporter Website Redesign</h3>
-        <p>February 2015</p>
-        <a href="reporter.html"><button>full project view</button></a>
-      </div>
-
-
-      <div class="work">
-        <img src="assets/events-page.jpg">
-        <h3>RIT Events Webside Redesign</h3>
-        <p>December 2014</p>
-        <a href="reporter.html"><button>full project view</button></a> 
-      </div>
-
-
-      <div class="work">
-        <img src="assets/infographic.jpg">
-        <h3>Dietary Grains Inforgraphic</h3>
-        <p>October 2015</p>
-        <a href="reporter.html"><button>full project view</button></a> 
-      </div>
-
-
-      <div class="work">
-        <img src="assets/list-it.jpg">
-        <h3>List It Mobile App Design</h3>
-        <p>December 2013</p>
-        <a href="reporter.html"><button>full project view</button></a> 
-      </div>
+      <work work-title="RIT Reporter Website Redesign" work-pic="home-page.png" work-date="February 2015"></work>
+      <work work-title="RIT Events Webside Redesign" work-pic="events-page.jpg" work-date="December 2014"></work>
+      <work work-title="Dietary Grains Inforgraphic" work-pic="infographic.jpg" work-date="October 2015"></work>
+      <work work-title="List It Mobile App Design" work-pic="list-it.jpg" work-date="December 2013"></work>
     </div>
   </div>
-  
+
 
   </body>
 </html>
